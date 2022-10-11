@@ -791,7 +791,6 @@ padding-top: 150px;
     }
 
     &__card {
-
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -816,7 +815,10 @@ padding-top: 150px;
         }
 
         &-title {
-            &-1{color: $colorPrimary;}
+            &-1 {
+                color: $colorPrimary;
+                font-size: 22px;
+            }
             &-2{color:#FF6800;}
             &-3{color: #FF2D59;}
             &-4{color: #4ADB61;}
